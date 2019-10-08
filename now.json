@@ -1,0 +1,11 @@
+{
+    "version": 2,
+    "name": "my-portfolio",
+    "routes": [
+      { "src": "/(.*)", "dest": "/src/$1" },
+      { "src": "/assets/(.*)/(.*)", "dest": "/src/assets/$1/$2" },
+      { "src": "/docs/(.*)", "dest": "/src/docs/$1" },
+      { "handle": "filesystem" },
+      { "src": "/.*", "status": 404, "dest": "/src/404.html" }
+    ]
+  }
