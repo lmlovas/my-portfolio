@@ -1,4 +1,22 @@
-body {
-    background-color: hotpink;
-    height: 100vh;
+.body {
+    background-image: url('../img/workplace-2303851_1920.jpg');
+    background-repeat: no-repeat;
+        background-size: cover;
+         background-attachment: fixed;
+         background-position: center;
 }
+
+.color {
+    background-color: aqua;
+}
+
+.caption {
+    text-align: center;
+    color: gray;
+    margin-top: 25vh;
+}
+
+/* .linkedin {
+    height: 15vh;
+    width: 15vw;
+} */
