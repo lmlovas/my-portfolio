@@ -6,10 +6,6 @@
          background-position: center;
 }
 
-.color {
-    background-color: aqua;
-}
-
 .caption {
     text-align: center;
     color: gray;
@@ -19,9 +15,56 @@
 .container {
     display: flex;
     justify-content: center;
-    margin-top: 20vh;
+    margin-top: 15vh;
 }
 
 .linkedin {
     margin-right: 30px;
+}
+
+header {
+    font-family: 'Yeseva One', cursive;
+    font-size: 50px;
+}
+
+p {
+    font-family: 'Zilla Slab', serif;
+    font-size: 35px;
+}
+
+@media only screen and (max-width: 420px) {
+    header {
+        font-size: 30px;
+        text-align: center;
+    }
+    p {
+        font-size: 20px;
+    }
+    .container {
+        margin-top: 10vh;
+    }
+}
+
+@media only screen and (min-width: 421px) and (max-width: 650px) {
+    header {
+        text-align: center;
+    }
+    p {
+        font-size: 20px;
+    }
+    .container {
+        margin-top: 5vh;
+    }
+}
+
+@media only screen and (min-width: 6511px) and (max-width: 650px) {
+    header {
+        text-align: center;
+    }
+    p {
+        font-size: 20px;
+    }
+    .container {
+        margin-top: 5vh;
+    }
 }
