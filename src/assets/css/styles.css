@@ -6,6 +6,12 @@
          background-position: center;
 }
 
+header {
+    font-family: 'Yeseva One', cursive;
+    font-size: 50px;
+    color: rgb(114, 86, 122);
+}
+
 .caption {
     text-align: center;
     color: gray;
@@ -22,14 +28,10 @@
     margin-right: 30px;
 }
 
-header {
-    font-family: 'Yeseva One', cursive;
-    font-size: 50px;
-}
-
 p {
     font-family: 'Zilla Slab', serif;
     font-size: 35px;
+    color: rgb(82, 125, 161);
 }
 
 @media only screen and (max-width: 420px) {
