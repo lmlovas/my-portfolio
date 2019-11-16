@@ -57,14 +57,20 @@ p {
     }
 }
 
-@media only screen and (min-width: 6511px) and (max-width: 650px) {
-    header {
-        text-align: center;
-    }
+@media only screen and (min-width: 651px) and (max-width: 900px) {
     p {
-        font-size: 20px;
+        font-size: 25px;
     }
     .container {
         margin-top: 5vh;
+    }
+}
+
+@media only screen and (min-width: 901px) and (max-width: 1051px) {
+    p {
+        font-size: 23px;
+    }
+    .container {
+        margin-top: 10vh;
     }
 }
